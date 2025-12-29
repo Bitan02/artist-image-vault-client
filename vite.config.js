@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'creative-showcase-backend-9w95snosy.vercel.app',
+        target: 'creative-showcase-backend-dq9s.vercel.app',
         changeOrigin: true,
       },
     },
