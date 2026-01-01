@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://creative-showcase-backend-dq9s.vercel.app/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://creative-showcase-backend-pt2k-du20xt4cx-bitan-karaks-projects.vercel.app/api';
 
 // Create axios instance
 const api = axios.create({
@@ -48,4 +48,5 @@ export const postAPI = {
 };
 
 export default api;
+
 
