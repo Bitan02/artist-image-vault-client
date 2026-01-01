@@ -7,10 +7,11 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'creative-showcase-backend-8o1t.vercel.app',
+        target: 'https://creative-showcase-backend-pt2k-du20xt4cx-bitan-karaks-projects.vercel.app',
         changeOrigin: true,
       },
     },
   },
 });
+
 
